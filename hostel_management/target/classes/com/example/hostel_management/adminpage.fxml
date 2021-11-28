@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="449.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.hostel_management.adminPageController">
+   <top>
+      <AnchorPane prefHeight="58.0" prefWidth="520.0" style="-fx-background-color: Black;" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="247.0" layoutY="20.0" prefHeight="24.0" prefWidth="135.0" text="ADMIN PAGE" textFill="WHITE">
+               <font>
+                  <Font name="Britannic Bold" size="24.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </top>
+   <left>
+      <AnchorPane prefHeight="391.0" prefWidth="130.0" style="-fx-background-color: lightgrey;" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="21.0" layoutY="58.0" prefHeight="19.0" prefWidth="101.0" text="Welcome!!!" textFill="#2e0404">
+               <font>
+                  <Font name="Britannic Bold" size="19.0" />
+               </font>
+            </Label>
+            <Button fx:id="viewDetailsButton" layoutX="21.0" layoutY="89.0" mnemonicParsing="false" onAction="#viewDetailsButtonOnAction" text="View Details">
+               <font>
+                  <Font name="Trebuchet MS" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="token" layoutX="20.0" layoutY="232.0" mnemonicParsing="false" onAction="#tokenbuttonOnAction" prefHeight="23.0" prefWidth="84.0" text="Tokens">
+               <font>
+                  <Font name="Trebuchet MS" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="exitButton" layoutX="20.0" layoutY="268.0" mnemonicParsing="false" onAction="#exitButtonOnAction" prefHeight="23.0" prefWidth="84.0" text="Log out">
+               <font>
+                  <Font name="Trebuchet MS" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="att" layoutX="20.0" layoutY="196.0" mnemonicParsing="false" onAction="#attOnAction" prefHeight="23.0" prefWidth="84.0" text="Attendance">
+               <font>
+                  <Font name="Trebuchet MS" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="updatebutton" layoutX="20.0" layoutY="158.0" mnemonicParsing="false" onAction="#updateOnAction" prefHeight="23.0" prefWidth="84.0" text="Update">
+               <font>
+                  <Font name="Trebuchet MS" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="insertbutton" layoutX="20.0" layoutY="125.0" mnemonicParsing="false" onAction="#insertButtonOnAction" prefHeight="23.0" prefWidth="84.0" text="Insert">
+               <font>
+                  <Font name="Trebuchet MS" size="12.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </left>
+   <center>
+      <AnchorPane prefHeight="391.0" prefWidth="450.0" style="-fx-background-color: grey;" BorderPane.alignment="CENTER" />
+   </center>
+</BorderPane>

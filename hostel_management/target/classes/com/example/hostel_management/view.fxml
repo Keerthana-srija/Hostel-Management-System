@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750.0" prefWidth="672.0" style="-fx-background-color: lightgrey;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.hostel_management.viewpageController">
+    <children>
+        <Pane layoutX="1.0" prefHeight="69.0" prefWidth="672.0" style="-fx-background-color: black;">
+            <children>
+                <Label layoutX="45.0" layoutY="20.0" text="VIEW" textFill="WHITE">
+                    <font>
+                        <Font name="Britannic Bold" size="30.0" />
+                    </font>
+                </Label>
+            <Button fx:id="ClickHere" layoutX="541.0" layoutY="21.0" mnemonicParsing="false" onAction="#ClickHereOnAction" style="-fx-background-color: black;" text="CLICK HERE" textFill="WHITE">
+               <font>
+                  <Font name="Britannic Bold" size="16.0" />
+               </font></Button>
+            <TextField fx:id="rollNumberTextField" layoutX="392.0" layoutY="22.0" promptText="Enter Roll Number" />
+            </children>
+        </Pane>
+        <Label layoutX="141.0" layoutY="85.0" text="Student Name">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font>
+        </Label>
+        <Label layoutX="141.0" layoutY="139.0" text="Roll No">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font>
+        </Label>
+        <Label layoutX="141.0" layoutY="166.0" text="Course">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font>
+        </Label>
+        <Label layoutX="141.0" layoutY="197.0" text="Department">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font>
+        </Label>
+        <Label layoutX="141.0" layoutY="233.0" text="Personal Mail ID">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font>
+        </Label>
+        <Label layoutX="141.0" layoutY="268.0" text="Official Mail ID">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font>
+        </Label>
+        <Label layoutX="141.0" layoutY="306.0" text="Student MobileNo">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font>
+        </Label>
+        <Label layoutX="141.0" layoutY="346.0" text="Allergies">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font>
+        </Label>
+        <Label layoutX="141.0" layoutY="384.0" text="Address">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font>
+        </Label>
+        <Label layoutX="141.0" layoutY="420.0" text="Blood Group">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font>
+        </Label>
+        <Label layoutX="141.0" layoutY="458.0" text="Father Name">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font>
+        </Label>
+        <Label layoutX="141.0" layoutY="494.0" text="Mother Name">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font>
+        </Label>
+        <Label layoutX="141.0" layoutY="533.0" text="Parent MobileNo">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font>
+        </Label>
+        <Label layoutX="141.0" layoutY="573.0" text="Guardian Name">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font>
+        </Label>
+        <Label layoutX="141.0" layoutY="613.0" text="Guardian MobileNo">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font>
+        </Label>
+      <Button fx:id="OK" layoutX="303.0" layoutY="681.0" mnemonicParsing="false" onAction="#OKOnAction" prefHeight="32.0" prefWidth="80.0" style="-fx-background-color: black;" text="OK" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Button>
+      <Label fx:id="StudentName" layoutX="278.0" layoutY="83.0" prefHeight="25.0" prefWidth="210.0" textFill="#66023c">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="RollNo" layoutX="278.0" layoutY="130.0" prefHeight="25.0" prefWidth="210.0" textFill="#66023c">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="Course" layoutX="278.0" layoutY="164.0" prefHeight="25.0" prefWidth="210.0" textFill="#66023c">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="Department" layoutX="278.0" layoutY="195.0" prefHeight="25.0" prefWidth="290.0" textFill="#66023c">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="PersonalMail" layoutX="278.0" layoutY="230.0" prefHeight="25.0" prefWidth="273.0" textFill="#66023c">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="OfficialMail" layoutX="278.0" layoutY="265.0" prefHeight="25.0" prefWidth="279.0" textFill="#66023c">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="StudentMobile" layoutX="278.0" layoutY="304.0" prefHeight="25.0" prefWidth="210.0" textFill="#66023c">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="Allergies" layoutX="278.0" layoutY="344.0" prefHeight="25.0" prefWidth="147.0" textFill="#66023c">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="Address" layoutX="278.0" layoutY="382.0" prefHeight="25.0" prefWidth="279.0" textFill="#66023c">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="BloodGroup" layoutX="278.0" layoutY="418.0" prefHeight="25.0" prefWidth="122.0" textFill="#66023c">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="FatherName" layoutX="278.0" layoutY="456.0" prefHeight="25.0" prefWidth="210.0" textFill="#66023c">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="MotherName" layoutX="278.0" layoutY="492.0" prefHeight="25.0" prefWidth="210.0" textFill="#66023c">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="ParentMobile" layoutX="278.0" layoutY="531.0" prefHeight="25.0" prefWidth="210.0" textFill="#66023c">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="GuardianName" layoutX="278.0" layoutY="571.0" prefHeight="25.0" prefWidth="210.0" textFill="#66023c">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="GuardianMobile" layoutX="278.0" layoutY="611.0" prefHeight="25.0" prefWidth="210.0" textFill="#66023c">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="141.0" layoutY="113.0" text="Room No">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="roomNo" layoutX="278.0" layoutY="106.0" prefHeight="25.0" prefWidth="210.0" textFill="#66023c">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+
+
+    </children>
+</Pane>
