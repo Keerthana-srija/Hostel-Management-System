@@ -5,7 +5,7 @@ public class DatabaseConnection {
        public Connection getConnection() {
            String dbname = "students";
            String user = "root";
-           String password = "1369@Astrotopmysql";
+           String password = "123 ";
            String url = "jdbc:mysql://localhost:3306/" + dbname;
            try {
                Class.forName("com.mysql.cj.jdbc.Driver");
